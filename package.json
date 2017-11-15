@@ -1,0 +1,15 @@
+{
+  "name": "serveport",
+  "version": "1.0.0",
+  "description": "reverse proxy in node",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js 80 3232"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    //"express": "^4.16.2",
+    "http-proxy": "^1.16.2"
+  }
+}
